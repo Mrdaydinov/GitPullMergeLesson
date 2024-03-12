@@ -98,19 +98,19 @@ namespace GitPullMergeLesson
             Məsələn: [1, 2, 3, 4, 5] => Tək ədədlərin cəmi: 9, Cüt ədədlərin */
 
 
-            int[] arr = { 1, 2, 3, 4, 5 };
-            int sum1 = 0;
-            int sum2 = 0;
+            //int[] arr = { 1, 2, 3, 4, 5 };
+            //int sum1 = 0;
+            //int sum2 = 0;
 
-            for (int i = 0; i < arr.Length; i++)
-            {
-                if (arr[i] % 2==0)
-                    sum2 += arr[i];
-                else
-                    sum1 += arr[i];
-            }
-            Console.WriteLine(sum1);
-            Console.WriteLine(sum2);
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    if (arr[i] % 2==0)
+            //        sum2 += arr[i];
+            //    else
+            //        sum1 += arr[i];
+            //}
+            //Console.WriteLine(sum1);
+            //Console.WriteLine(sum2);
         }
     }
 }
